@@ -1,0 +1,9 @@
+{
+  "code": 200, 
+  "message": "成功",
+  "data": {
+    "mean": "用户回答不包含关键词",
+    "audioId": "3D8AC677E05E2AEEC0EE1B0DD9396B37",
+    "status": "20"
+  }
+}

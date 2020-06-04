@@ -1,0 +1,9 @@
+{
+  "code": 200, 
+  "message": "成功", 
+  "data": {
+    "final_score": 78.65,
+    "transcript": "HELLO", 
+    "audioId": "5916C2D93E36CC0AB0FDF618EF6AAA79"
+  }
+}

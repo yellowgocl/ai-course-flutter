@@ -1,0 +1,28 @@
+{
+    "id": 101,
+    "parentId": 101,
+    "option": {
+        "layout": 0,
+        "mainAxisAlignment": "end",
+        "size": null
+    },
+    "name": "rating",
+    "type": 0,
+    "order":0,
+    "children": [
+        {
+            "id": 1011,
+            "parentId": 101,
+            "name": "image",
+            "type": "image",
+            "order": 0,
+            "option": {
+                "src": "assets/images/contact_bg.png",
+                "alignment": 9,
+                "assetType": "assets",
+                "flex": 1,
+                "boxFit": "contain"
+            }
+        }
+    ]
+}

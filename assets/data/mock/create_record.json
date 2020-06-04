@@ -1,0 +1,105 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": {
+        "id": 27,
+        "unitId": 1,
+        "uid": "a7d1f02a54db4e6287a7aa77990f16f4",
+        "score": 81,
+        "data": {
+            "currentBlockId": 1,
+            "list": [
+                {
+                    "mode": 0,
+                    "score": 99.04,
+                    "keywords": [],
+                    "audioId": "551A706D833842FAED92B239812825B0",
+                    "answers": [
+                        "doll"
+                    ],
+                    "id": 0
+                },
+                {
+                    "mode": 0,
+                    "score": 89.99,
+                    "keywords": [],
+                    "audioId": "5036EDCCBF375E5F1EDCB19E072D1468",
+                    "answers": [
+                        "car"
+                    ],
+                    "id": 1
+                },
+                {
+                    "mode": 0,
+                    "score": 92.88,
+                    "keywords": [],
+                    "audioId": "78FFD778708B179C444427DB3BBE657B",
+                    "answers": [
+                        "plane"
+                    ],
+                    "id": 2
+                },
+                {
+                    "mode": 0,
+                    "score": 84.22,
+                    "keywords": [],
+                    "audioId": "8FDA949E586B12656EA61A2BA7122761",
+                    "answers": [
+                        "train"
+                    ],
+                    "id": 3
+                },
+                {
+                    "mode": 0,
+                    "score": 62.2,
+                    "keywords": [],
+                    "audioId": "",
+                    "answers": [
+                        "puppet"
+                    ],
+                    "id": 4
+                },
+                {
+                    "mode": 1,
+                    "score": 70.12,
+                    "keywords": [
+                        "blue"
+                    ],
+                    "audioId": "",
+                    "answers": [
+                        "A blue plane"
+                    ],
+                    "id": 5
+                },
+                {
+                    "mode": 1,
+                    "score": 98.42,
+                    "keywords": [
+                        "red"
+                    ],
+                    "audioId": "",
+                    "answers": [
+                        "A red car"
+                    ],
+                    "id": 6
+                },
+                {
+                    "mode": 1,
+                    "score": 56.01,
+                    "keywords": [
+                        "puppet"
+                    ],
+                    "audioId": "",
+                    "answers": [
+                        "It’s a puppet"
+                    ],
+                    "id": 7
+                }
+            ],
+            "currentPoint": 153
+        },
+        "createBy": "account:a7d1f02a54db4e6287a7aa77990f16f4",
+        "createDate": 1581742432283,
+        "updateDate": 1581742432283
+    }
+}

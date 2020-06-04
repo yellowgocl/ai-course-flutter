@@ -1,0 +1,843 @@
+{
+    "code": 200,
+    "message": "success",
+    "data": {
+        "id": 1,
+        "updateDate": 1581924003916,
+        "versions": [
+            {"id": 40000, "version": 1, "versionName": "1.0.0-beta", "platform": 0, "platformName": "CORE"},
+            {"id": 40001, "version": 45, "versionName": "1.0.1-beta", "platform": 1, "platformName": "IOS"},
+            {"id": 40002, "version": 45, "versionName": "1.0.1-beta", "platform": 2, "platformName": "ANDROID"},
+            {"id": 40003, "version": 3, "versionName": "1.0.0-release", "platform": 3, "platformName": "DEVICE"}
+        ],
+        "video": "http://dev.apphelper.zhibankeji.com/course_720p.mp4",
+        "name": "第一节课件",
+        "global": { "vars": [] },
+        "chapters": [
+            {"id": 10001, "name":"123", "start": 2300, "mode": 0}
+        ],
+        "points": [
+            {
+                "type": 0,
+                "beginTime": 153,
+                "duration": 0,
+                "skip": 3,
+                "text": "doll",
+                "description": "第一节课件-交互点1建议描述",
+                "audio": "http://dev.apphelper.zhibankeji.com/1-doll.mp3",
+                "conditions": [
+                    { "express": 90, "contextId": null, "skipValue": 0 },
+                    { "express": 80, "contextId": null, "skipValue": 0 },
+                    { "express": 60, "contextId": null, "skipValue": 0 }
+                ],
+                "answers": [
+                    { "value": ["doll"], "secondary": [] }
+                ],
+                "feedback": null,
+                "data": 
+                {
+                    "name": "root screen",
+                    "type": "screen",
+                    "order": 0,
+                    "children": [
+                        { 
+                            "type": "questionType", 
+                            "option": { 
+                                "alignment": 1,
+                                "alignmentSelf": 9,
+                                "size": { "width": 260, "height": 65 },
+                                "padding": { "bottom": 10 },
+                                "decoration": {
+                                    "image": {
+                                        "src": "assets/images/question_type_bg_t_0_p_0.png",
+                                        "assetType": "assets",
+                                        "boxFit": "contain"
+                                    }
+                                }
+                            } 
+                        },
+                        { 
+                            "type": "question", 
+                            "option": { 
+                                "alignment": 9,
+                                "padding": 32,
+                                "style": "question",
+                                "constraints": {
+                                    "maxWidth": 500
+                                },
+                                "decoration": {
+                                    "color": "##FFF5FCFF",
+                                    "border": {
+                                        "color": "#FF67B9E9",
+                                        "width": 4
+                                    },
+                                    "borderRadius": 24
+                                }
+                            } 
+                        },
+                        {
+                            "type": "recordButton",
+                            "name": "录音按钮",
+                            "order": 0,
+                            "option": {
+                                "alignment": 5
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": 0,
+                "beginTime": 184,
+                "duration": 0,
+                "skip": 3,
+                "text": "car",
+                "description": "第一节课件-交互点1建议描述",
+                "audio": "http://dev.apphelper.zhibankeji.com/2-car.mp3",
+                "conditions": [
+                    { "express": 90, "contextId": null, "skipValue": 0 },
+                    { "express": 80, "contextId": null, "skipValue": 0 },
+                    { "express": 60, "contextId": null, "skipValue": 0 }
+                ],
+                "answers": [
+                    { "value": ["car"], "secondary": [] }
+                ],
+                "feedback": null,
+                "data": 
+                {
+                    "name": "root screen",
+                    "type": "screen",
+                    "order": 0,
+                    "children": [
+                        { 
+                            "type": "questionType", 
+                            "option": { 
+                                "alignment": 1,
+                                "alignmentSelf": 9,
+                                "size": { "width": 260, "height": 65 },
+                                "padding": { "bottom": 10 },
+                                "decoration": {
+                                    "image": {
+                                        "src": "assets/images/question_type_bg_t_0_p_0.png",
+                                        "assetType": "assets",
+                                        "boxFit": "contain"
+                                    }
+                                }
+                            } 
+                        },
+                        { 
+                            "type": "question", 
+                            "option": { 
+                                "alignment": 9,
+                                "padding": 32,
+                                "style": "question",
+                                "constraints": {
+                                    "maxWidth": 500
+                                },
+                                "decoration": {
+                                    "color": "##FFF5FCFF",
+                                    "border": {
+                                        "color": "#FF67B9E9",
+                                        "width": 4
+                                    },
+                                    "borderRadius": 24
+                                }
+                            } 
+                        },
+                        {
+                            "type": "recordButton",
+                            "name": "录音按钮",
+                            "order": 0,
+                            "option": {
+                                "alignment": 5
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": 0,
+                "beginTime": 216,
+                "duration": 0,
+                "skip": 3,
+                "text": "plane",
+                "description": "第一节课件-飞机",
+                "audio": "http://dev.apphelper.zhibankeji.com/3-plane.mp3",
+                "conditions": [
+                    { "express": 90, "contextId": null, "skipValue": 0 },
+                    { "express": 80, "contextId": null, "skipValue": 0 },
+                    { "express": 60, "contextId": null, "skipValue": 0 }
+                ],
+                "answers": [
+                    { "value": ["plane"], "secondary": [] }
+                ],
+                "feedback": null,
+                "data": 
+                {
+                    "name": "root screen",
+                    "type": "screen",
+                    "order": 0,
+                    "children": [
+                        { 
+                            "type": "questionType", 
+                            "option": { 
+                                "alignment": 1,
+                                "alignmentSelf": 9,
+                                "size": { "width": 260, "height": 65 },
+                                "padding": { "bottom": 10 },
+                                "decoration": {
+                                    "image": {
+                                        "src": "assets/images/question_type_bg_t_0_p_0.png",
+                                        "assetType": "assets",
+                                        "boxFit": "contain"
+                                    }
+                                }
+                            } 
+                        },
+                        { 
+                            "type": "question", 
+                            "option": { 
+                                "alignment": 9,
+                                "padding": 32,
+                                "style": "question",
+                                "constraints": {
+                                    "maxWidth": 500
+                                },
+                                "decoration": {
+                                    "color": "##FFF5FCFF",
+                                    "border": {
+                                        "color": "#FF67B9E9",
+                                        "width": 4
+                                    },
+                                    "borderRadius": 24
+                                }
+                            } 
+                        },
+                        {
+                            "type": "recordButton",
+                            "name": "录音按钮",
+                            "order": 0,
+                            "option": {
+                                "alignment": 5
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": 0,
+                "beginTime": 246,
+                "duration": 0,
+                "skip": 3,
+                "text": "train",
+                "description": "第一节课件-飞机",
+                "audio": "http://dev.apphelper.zhibankeji.com/4-train.mp3",
+                "conditions": [
+                    { "express": 90, "contextId": null, "skipValue": 0 },
+                    { "express": 80, "contextId": null, "skipValue": 0 },
+                    { "express": 60, "contextId": null, "skipValue": 0 }
+                ],
+                "answers": [
+                    { "value": ["train"], "secondary": [] }
+                ],
+                "feedback": null,
+                "data": 
+                {
+                    "name": "root screen",
+                    "type": "screen",
+                    "order": 0,
+                    "children": [
+                        { 
+                            "type": "questionType", 
+                            "option": { 
+                                "alignment": 1,
+                                "alignmentSelf": 9,
+                                "size": { "width": 260, "height": 65 },
+                                "padding": { "bottom": 10 },
+                                "decoration": {
+                                    "image": {
+                                        "src": "assets/images/question_type_bg_t_0_p_0.png",
+                                        "assetType": "assets",
+                                        "boxFit": "contain"
+                                    }
+                                }
+                            } 
+                        },
+                        { 
+                            "type": "question", 
+                            "option": { 
+                                "alignment": 9,
+                                "padding": 32,
+                                "style": "question",
+                                "constraints": {
+                                    "maxWidth": 500
+                                },
+                                "decoration": {
+                                    "color": "##FFF5FCFF",
+                                    "border": {
+                                        "color": "#FF67B9E9",
+                                        "width": 4
+                                    },
+                                    "borderRadius": 24
+                                }
+                            } 
+                        },
+                        {
+                            "type": "recordButton",
+                            "name": "录音按钮",
+                            "order": 0,
+                            "option": {
+                                "alignment": 5
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": 0,
+                "beginTime": 278,
+                "duration": 0,
+                "skip": 3,
+                "text": "puppet",
+                "description": "第一节课件-puppet",
+                "audio": "http://dev.apphelper.zhibankeji.com/5-puppet.mp3",
+                "conditions": [
+                    { "express": 90, "contextId": null, "skipValue": 0 },
+                    { "express": 80, "contextId": null, "skipValue": 0 },
+                    { "express": 60, "contextId": null, "skipValue": 0 }
+                ],
+                "answers": [
+                    { "value": ["puppet"], "secondary": [] }
+                ],
+                "feedback": null,
+                "data": 
+                {
+                    "name": "root screen",
+                    "type": "screen",
+                    "order": 0,
+                    "children": [
+                        { 
+                            "type": "questionType", 
+                            "option": { 
+                                "alignment": 1,
+                                "alignmentSelf": 9,
+                                "size": { "width": 260, "height": 65 },
+                                "padding": { "bottom": 10 },
+                                "decoration": {
+                                    "image": {
+                                        "src": "assets/images/question_type_bg_t_0_p_0.png",
+                                        "assetType": "assets",
+                                        "boxFit": "contain"
+                                    }
+                                }
+                            } 
+                        },
+                        { 
+                            "type": "question", 
+                            "option": { 
+                                "alignment": 9,
+                                "padding": 32,
+                                "style": "question",
+                                "constraints": {
+                                    "maxWidth": 500
+                                },
+                                "decoration": {
+                                    "color": "##FFF5FCFF",
+                                    "border": {
+                                        "color": "#FF67B9E9",
+                                        "width": 4
+                                    },
+                                    "borderRadius": 24
+                                }
+                            } 
+                        },
+                        {
+                            "type": "recordButton",
+                            "name": "录音按钮",
+                            "order": 0,
+                            "option": {
+                                "alignment": 5
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": 1,
+                "beginTime": 358,
+                "duration": 0,
+                "skip": 3,
+                "text": "What is the missing plane?",
+                "description": "第一节课件-问答",
+                "audio": "http://dev.apphelper.zhibankeji.com/6-what_is_the_missing_plane.mp3",
+                "conditions": [
+                    { "express": 80, "contextId": null, "skipValue": 0 },
+                    { "express": 60, "contextId": null, "skipValue": 0 }
+                ],
+                "answers": [
+                    { "value": ["A blue plane"], "secondary": ["blue"] }
+                ],
+                "feedback": null,
+                "data": 
+                {
+                    "name": "root screen",
+                    "type": "screen",
+                    "order": 0,
+                    "children": [
+                        { 
+                            "type": "questionType", 
+                            "option": { 
+                                "alignment": 1,
+                                "alignmentSelf": 9,
+                                "size": { "width": 260, "height": 65 },
+                                "padding": { "bottom": 10 },
+                                "decoration": {
+                                    "image": {
+                                        "src": "assets/images/question_type_bg_t_0_p_0.png",
+                                        "assetType": "assets",
+                                        "boxFit": "contain"
+                                    }
+                                }
+                            } 
+                        },
+                        { 
+                            "type": "image", 
+                            "option": { 
+                                "alignment": 9,
+                                "constraints": {
+                                    "maxWidth": 500
+                                },
+                                "src": "http://dev.apphelper.zhibankeji.com/img_what_is_the_missing_plane.png",
+                                "boxFit": "contain",
+                                "assetType": "network",
+                                "size": "80%"
+                            } 
+                        },
+                        {
+                            "type": "recordButton",
+                            "name": "录音按钮",
+                            "order": 0,
+                            "option": {
+                                "alignment": 5
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": 1,
+                "beginTime": 410,
+                "duration": 0,
+                "skip": 3,
+                "text": "What is the missing car?",
+                "description": "第一节课件-问答",
+                "audio": "http://dev.apphelper.zhibankeji.com/7-what_is_the_missing_car.mp3",
+                "conditions": [
+                    { "express": 80, "contextId": null, "skipValue": 0 },
+                    { "express": 60, "contextId": null, "skipValue": 0 }
+                ],
+                "answers": [
+                    { "value": ["A red car"], "secondary": ["red"] }
+                ],
+                "feedback": null,
+                "data": 
+                {
+                    "name": "root screen",
+                    "type": "screen",
+                    "order": 0,
+                    "children": [
+                        { 
+                            "type": "questionType", 
+                            "option": { 
+                                "alignment": 1,
+                                "alignmentSelf": 9,
+                                "size": { "width": 260, "height": 65 },
+                                "padding": { "bottom": 10 },
+                                "decoration": {
+                                    "image": {
+                                        "src": "assets/images/question_type_bg_t_0_p_0.png",
+                                        "assetType": "assets",
+                                        "boxFit": "contain"
+                                    }
+                                }
+                            } 
+                        },
+                        { 
+                            "type": "image", 
+                            "option": { 
+                                "alignment": 9,
+                                "constraints": {
+                                    "maxWidth": 500
+                                },
+                                "src": "http://dev.apphelper.zhibankeji.com/img_what_is_the_missing_car.png",
+                                "boxFit": "contain",
+                                "assetType": "network",
+                                "size": "65%"
+                            } 
+                        },
+                        {
+                            "type": "recordButton",
+                            "name": "录音按钮",
+                            "order": 0,
+                            "option": {
+                                "alignment": 5
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": 1,
+                "beginTime": 434,
+                "duration": 0,
+                "skip": 3,
+                "text": "What’s this?",
+                "description": "第一节课件-问答",
+                "audio": "http://dev.apphelper.zhibankeji.com/89-what_is_this.mp3",
+                "conditions": [
+                    { "express": 80, "contextId": null, "skipValue": 0 },
+                    { "express": 60, "contextId": null, "skipValue": 0 }
+                ],
+                "answers": [
+                    { "value": ["It’s a puppet"], "secondary": ["puppet"] }
+                ],
+                "feedback": null,
+                "data": 
+                {
+                    "name": "root screen",
+                    "type": "screen",
+                    "order": 0,
+                    "children": [
+                        { 
+                            "type": "questionType", 
+                            "option": { 
+                                "alignment": 1,
+                                "alignmentSelf": 9,
+                                "size": { "width": 260, "height": 65 },
+                                "padding": { "bottom": 10 },
+                                "decoration": {
+                                    "image": {
+                                        "src": "assets/images/question_type_bg_t_0_p_0.png",
+                                        "assetType": "assets",
+                                        "boxFit": "contain"
+                                    }
+                                }
+                            } 
+                        },
+                        { 
+                            "type": "question", 
+                            "option": { 
+                                "alignment": 9,
+                                "padding": 32,
+                                "style": "question",
+                                "constraints": {
+                                    "maxWidth": 500
+                                },
+                                "decoration": {
+                                    "color": "##FFF5FCFF",
+                                    "border": {
+                                        "color": "#FF67B9E9",
+                                        "width": 4
+                                    },
+                                    "borderRadius": 24
+                                }
+                            } 
+                        },
+                        {
+                            "type": "recordButton",
+                            "name": "录音按钮",
+                            "order": 0,
+                            "option": {
+                                "alignment": 5
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": 1,
+                "beginTime": 444,
+                "duration": 0,
+                "skip": 3,
+                "text": "What’s this?",
+                "description": "第一节课件-问答",
+                "audio": "http://dev.apphelper.zhibankeji.com/89-what_is_this.mp3",
+                "conditions": [
+                    { "express": 80, "contextId": null, "skipValue": 0 },
+                    { "express": 60, "contextId": null, "skipValue": 0 }
+                ],
+                "answers": [
+                    { "value": ["It’s a train"], "secondary": ["train"] }
+                ],
+                "feedback": null,
+                "data": 
+                {
+                    "name": "root screen",
+                    "type": "screen",
+                    "order": 0,
+                    "children": [
+                        { 
+                            "type": "questionType", 
+                            "option": { 
+                                "alignment": 1,
+                                "alignmentSelf": 9,
+                                "size": { "width": 260, "height": 65 },
+                                "padding": { "bottom": 10 },
+                                "decoration": {
+                                    "image": {
+                                        "src": "assets/images/question_type_bg_t_0_p_0.png",
+                                        "assetType": "assets",
+                                        "boxFit": "contain"
+                                    }
+                                }
+                            } 
+                        },
+                        { 
+                            "type": "question", 
+                            "option": { 
+                                "alignment": 9,
+                                "padding": 32,
+                                "style": "question",
+                                "constraints": {
+                                    "maxWidth": 500
+                                },
+                                "decoration": {
+                                    "color": "##FFF5FCFF",
+                                    "border": {
+                                        "color": "#FF67B9E9",
+                                        "width": 4
+                                    },
+                                    "borderRadius": 24
+                                }
+                            } 
+                        },
+                        {
+                            "type": "recordButton",
+                            "name": "录音按钮",
+                            "order": 0,
+                            "option": {
+                                "alignment": 5
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": 1,
+                "beginTime": 453,
+                "duration": 0,
+                "skip": 3,
+                "text": "What about this？",
+                "description": "第一节课件-问答",
+                "audio": "http://dev.apphelper.zhibankeji.com/10-what_about_this.mp3",
+                "conditions": [
+                    { "express": 80, "contextId": null, "skipValue": 0 },
+                    { "express": 60, "contextId": null, "skipValue": 0 }
+                ],
+                "answers": [
+                    { "value": ["It’s a plane"], "secondary": ["plane"] }
+                ],
+                "feedback": null,
+                "data": 
+                {
+                    "name": "root screen",
+                    "type": "screen",
+                    "order": 0,
+                    "children": [
+                        { 
+                            "type": "questionType", 
+                            "option": { 
+                                "alignment": 1,
+                                "alignmentSelf": 9,
+                                "size": { "width": 260, "height": 65 },
+                                "padding": { "bottom": 10 },
+                                "decoration": {
+                                    "image": {
+                                        "src": "assets/images/question_type_bg_t_0_p_0.png",
+                                        "assetType": "assets",
+                                        "boxFit": "contain"
+                                    }
+                                }
+                            } 
+                        },
+                        { 
+                            "type": "question", 
+                            "option": { 
+                                "alignment": 9,
+                                "padding": 32,
+                                "style": "question",
+                                "constraints": {
+                                    "maxWidth": 500
+                                },
+                                "decoration": {
+                                    "color": "##FFF5FCFF",
+                                    "border": {
+                                        "color": "#FF67B9E9",
+                                        "width": 4
+                                    },
+                                    "borderRadius": 24
+                                }
+                            } 
+                        },
+                        {
+                            "type": "recordButton",
+                            "name": "录音按钮",
+                            "order": 0,
+                            "option": {
+                                "alignment": 5
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": 1,
+                "beginTime": 489,
+                "duration": 0,
+                "skip": 3,
+                "text": "What is missing?",
+                "description": "第一节课件-问答",
+                "audio": "http://dev.apphelper.zhibankeji.com/1112-what_is_missing.mp3",
+                "conditions": [
+                    { "express": 80, "contextId": null, "skipValue": 0 },
+                    { "express": 60, "contextId": null, "skipValue": 0 }
+                ],
+                "answers": [
+                    { "value": ["It’s a doll"], "secondary": ["doll"] }
+                ],
+                "feedback": null,
+                "data": 
+                {
+                    "name": "root screen",
+                    "type": "screen",
+                    "order": 0,
+                    "children": [
+                        { 
+                            "type": "questionType", 
+                            "option": { 
+                                "alignment": 1,
+                                "alignmentSelf": 9,
+                                "size": { "width": 260, "height": 65 },
+                                "padding": { "bottom": 10 },
+                                "decoration": {
+                                    "image": {
+                                        "src": "assets/images/question_type_bg_t_0_p_0.png",
+                                        "assetType": "assets",
+                                        "boxFit": "contain"
+                                    }
+                                }
+                            } 
+                        },
+                        { 
+                            "type": "question", 
+                            "option": { 
+                                "alignment": 9,
+                                "padding": 32,
+                                "style": "question",
+                                "constraints": {
+                                    "maxWidth": 500
+                                },
+                                "decoration": {
+                                    "color": "##FFF5FCFF",
+                                    "border": {
+                                        "color": "#FF67B9E9",
+                                        "width": 4
+                                    },
+                                    "borderRadius": 24
+                                }
+                            } 
+                        },
+                        {
+                            "type": "recordButton",
+                            "name": "录音按钮",
+                            "order": 0,
+                            "option": {
+                                "alignment": 5
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": 1,
+                "beginTime": 522,
+                "duration": 0,
+                "skip": 3,
+                "text": "What is missing?",
+                "description": "第一节课件-问答",
+                "audio": "http://dev.apphelper.zhibankeji.com/1112-what_is_missing.mp3",
+                "conditions": [
+                    { "express": 80, "contextId": null, "skipValue": 0 },
+                    { "express": 60, "contextId": null, "skipValue": 0 }
+                ],
+                "answers": [
+                    { "value": ["It’s a car", "it’s a puppet"], "secondary": ["car", "puppet"] }
+                ],
+                "feedback": null,
+                "data": 
+                {
+                    "name": "root screen",
+                    "type": "screen",
+                    "order": 0,
+                    "children": [
+                        { 
+                            "type": "questionType", 
+                            "option": { 
+                                "alignment": 1,
+                                "alignmentSelf": 9,
+                                "size": { "width": 260, "height": 65 },
+                                "padding": { "bottom": 10 },
+                                "decoration": {
+                                    "image": {
+                                        "src": "assets/images/question_type_bg_t_0_p_0.png",
+                                        "assetType": "assets",
+                                        "boxFit": "contain"
+                                    }
+                                }
+                            } 
+                        },
+                        { 
+                            "type": "question", 
+                            "option": { 
+                                "alignment": 9,
+                                "padding": 32,
+                                "style": "question",
+                                "constraints": {
+                                    "maxWidth": 500
+                                },
+                                "decoration": {
+                                    "color": "##FFF5FCFF",
+                                    "border": {
+                                        "color": "#FF67B9E9",
+                                        "width": 4
+                                    },
+                                    "borderRadius": 24
+                                }
+                            } 
+                        },
+                        {
+                            "type": "recordButton",
+                            "name": "录音按钮",
+                            "order": 0,
+                            "option": {
+                                "alignment": 5
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "report",
+                "duration": 0,
+                "beginTime": 564,
+                "skip": 0,
+                "data": {
+                    "type": "screen",
+                    "children": [{
+                        "type": "report"
+                    }]
+                }
+            }
+        ]
+    }
+}

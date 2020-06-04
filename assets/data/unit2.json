@@ -1,0 +1,179 @@
+{
+    "flag": true,
+    "code": 200,
+    "message": "success",
+    "data": {
+        "id": 1,
+        "versions": [
+            {"id": 40000, "version": 1, "versionName": "1.0.0-beta", "platform": 0, "platformName": "CORE"},
+            {"id": 40001, "version": 45, "versionName": "1.0.1-beta", "platform": 1, "platformName": "IOS"},
+            {"id": 40002, "version": 45, "versionName": "1.0.1-beta", "platform": 2, "platformName": "ANDROID"},
+            {"id": 40003, "version": 3, "versionName": "1.0.0-release", "platform": 3, "platformName": "DEVICE"}
+        ],
+        "media": {
+            "id": 10,
+            "name": "第一节课件",
+            "src": "http://dev.apphelper.zhibankeji.com/course_test1.mp4",
+            "duration": 45000
+        },
+        "global": { "vars": [] },
+        "chapters": [
+            {"id": 10001, "name":"123", "start": 2300, "mode": 0}
+        ],
+        "blocks": [
+            {
+                "mode": 1,
+                "id": 100,
+                "start": 2400,
+                "duration": 0,
+                "skip": 3,
+                "name": "第一节课件-交互点1",
+                "description": "第一节课件-交互点1建议描述",
+                "question": "{视频问题音频}/(.mp3 | .wav)",
+                "thumb": "{交互点图片}/{.jpg | .png}",
+                "contextId": 10001,
+                "conditions": [
+                    {
+                        "express": 80,
+                        "contextId": null,
+                        "skipValue": 0
+                    },
+                    {
+                        "express": 60,
+                        "contextId": null,
+                        "skipValue": 0
+                    },
+                    {
+                        "express": 40,
+                        "contextId": null,
+                        "skipValue": 0
+                    }
+                ],
+                "answers": [
+                    { "id": 1100, "score": 0, "value": ["hello"], "secondary": ["hi, halo", "hello"] }
+                ],
+                "screen": 
+                {
+                    "id": 101,
+                    "parentId": 101,
+                    "option": {
+                        "layout": 0,
+                        "mainAxisAlignment": "end",
+                        "size": null
+                    },
+                    "name": "screen name",
+                    "type": 0,
+                    "order":0,
+                    "children": [
+                        {
+                            "id": 1011,
+                            "parentId": 101,
+                            "name": "image",
+                            "type": "image",
+                            "order": 0,
+                            "option": {
+                                "src": "assets/images/contact_bg.png",
+                                "alignment": 9,
+                                "assetType": "assets",
+                                "flex": 1,
+                                "boxFit": "contain"
+                            }
+                        },
+                        {
+                            "id": 1011,
+                            "parentId": 101,
+                            "name": "view-group",
+                            "type": "button",
+                            "order": 0,
+                            "children": [
+                                {
+                                    "id": 1011,
+                                    "parentId": 101,
+                                    "name": "image",
+                                    "type": "image",
+                                    "order": 0,
+                                    "option": {
+                                        "src": "assets/images/b_0_normal.png",
+                                        "alignment": 9,
+                                        "assetType": "assets",
+                                        "size": null,
+                                        "flex": 1,
+                                        "boxFit": "contain"
+                                    }
+                                },
+                                {
+                                    "id": 1014,
+                                    "parentId": 101,
+                                    "type": "text",
+                                    "name": "文本",
+                                    "order": 0,
+                                    "option": {
+                                        "text": "按钮1",
+                                        "theme": 1,
+                                        "style": "button"
+                                    }
+                                }
+                            ],
+                            "option": {
+                                "layout": 0,
+                                "size": null,
+                                "alignment": 8,
+                                "alignmentSelf": 9,
+                                "hint": "simple"
+                            }
+                        },
+                        {
+                            "id": 1011,
+                            "parentId": 101,
+                            "name": "image",
+                            "type": "image",
+                            "order": 0,
+                            "option": {
+                                "src": "assets/images/b_0_normal.png",
+                                "alignment": 9,
+                                "assetType": "assets",
+                                "size": 200,
+                                "flex": 1,
+                                "boxFit": "contain"
+                            }
+                        },
+                        {
+                            "id": 1014,
+                            "parentId": 101,
+                            "type": "text",
+                            "name": "文本",
+                            "order": 0,
+                            "option": {
+                                "text": "第一节课件-交互点1",
+                                "theme": 1,
+                                "alignment": 1,
+                                "flex": 1,
+                                "padding": {
+                                    "left": 20,
+                                    "right": 0,
+                                    "top": 20,
+                                    "bottom": 0
+                                }
+                            }
+                        },
+                        {
+                            "id": 1015,
+                            "parentId": 101,
+                            "type": "flare",
+                            "name": "Flare 动画",
+                            "order": 0,
+                            "option": {
+                                "alignment": 5,
+                                "fit": "contain",
+                                "animation": "speech",
+                                "size": 200,
+                                "transformConversionType": "viewport",
+                                "src": "assets/res/replay.flr"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

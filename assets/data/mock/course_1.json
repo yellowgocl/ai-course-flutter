@@ -1,0 +1,187 @@
+{
+    "code": 200,
+    "message": "success",
+    "data": {
+        "id": 1,
+        "versions": [
+            {"id": 40000, "version": 1, "versionName": "1.0.0-beta", "platform": 0, "platformName": "CORE"},
+            {"id": 40001, "version": 45, "versionName": "1.0.1-beta", "platform": 1, "platformName": "IOS"},
+            {"id": 40002, "version": 45, "versionName": "1.0.1-beta", "platform": 2, "platformName": "ANDROID"},
+            {"id": 40003, "version": 3, "versionName": "1.0.0-release", "platform": 3, "platformName": "DEVICE"}
+        ],
+        
+        "video": "http://dev.apphelper.zhibankeji.com/course_720p.mp4",
+        "name": "第一节课件",
+        "global": { "vars": [] },
+        "chapters": [
+            {"id": 10001, "name":"123", "start": 2300, "mode": 0}
+        ],
+        "points": [
+            {
+                "type": 0,
+                "id": 100,
+                "beginTime": 152,
+                "duration": 0,
+                "skip": 3,
+                "text": "doll",
+                "description": "第一节课件-交互点1建议描述",
+                "audio": "http://dev.apphelper.zhibankeji.com/1 - doll.mp3",
+                "video": "",
+                "thumb": "{交互点图片}/{.jpg | .png}",
+                "contextId": 10001,
+                "conditions": [
+                    { "express": 80, "contextId": null, "skipValue": 0 },
+                    { "express": 60, "contextId": null, "skipValue": 0 },
+                    { "express": 40, "contextId": null, "skipValue": 0 }
+                ],
+                "answers": [
+                    { "id": 1100, "score": 0, "value": ["hello"], "secondary": ["hi, halo", "hello"] }
+                ],
+                "feedback": null,
+                "data": 
+                {
+                    "id": null,
+                    "parentId": null,
+                    "name": "root screen",
+                    "type": "screen",
+                    "order": 0,
+                    "children": [
+                        { 
+                            "type": "questionType", 
+                            "option": { 
+                                "alignment": 1,
+                                "alignmentSelf": 9,
+                                "size": { "width": 260, "height": 65 },
+                                "padding": { "bottom": 10 },
+                                "decoration": {
+                                    "image": {
+                                        "src": "assets/images/question_type_bg_t_0_p_0.png",
+                                        "assetType": "assets",
+                                        "boxFit": "contain"
+                                    }
+                                }
+                            } 
+                        },
+                        { 
+                            "type": "question", 
+                            "option": { 
+                                "alignment": 9,
+                                "padding": 32,
+                                "style": "question",
+                                "constraints": {
+                                    "maxWidth": 500
+                                },
+                                "decoration": {
+                                    "color": "##FFF5FCFF",
+                                    "border": {
+                                        "color": "#FF67B9E9",
+                                        "width": 4
+                                    },
+                                    "borderRadius": 24
+                                }
+                            } 
+                        },
+                        {
+                            "type": "recordButton",
+                            "name": "录音按钮",
+                            "order": 0,
+                            "option": {
+                                "alignment": 5
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": 1,
+                "id": 101,
+                "beginTime": 60,
+                "duration": 0,
+                "skip": 3,
+                "text": "hey you! answer me, what color you see？",
+                "description": "第一节课件-交互点2建议描述",
+                "audio": "https://www.myinstants.com/media/sounds/fuckoff.mp3",
+                "video": "",
+                "contextId": 10001,
+                "conditions": [
+                    { "express": 80, "contextId": null, "skipValue": 0 },
+                    { "express": 60, "contextId": null, "skipValue": 0 }
+                ],
+                "answers": [
+                    { "id": 1100, "score": 0, "value": ["how old are you"], "secondary": ["hi", "hello", "good"] }
+                ],
+                "feedback": null,
+                "data": 
+                {
+                    "id": 101,
+                    "parentId": 101,
+                    "option": {
+                        "layout": 0,
+                        "mainAxisAlignment": "end",
+                        "size": null
+                    },
+                    "name": "screen name",
+                    "type": 0,
+                    "order":0,
+                    "children": [
+                        { 
+                            "type": "questionType", 
+                            "option": { 
+                                "alignment": 1,
+                                "alignmentSelf": 9,
+                                "size": { "width": 260, "height": 65 },
+                                "padding": { "bottom": 10 },
+                                "decoration": {
+                                    "image": {
+                                        "src": "assets/images/question_type_bg_t_0_p_0.png",
+                                        "assetType": "assets",
+                                        "boxFit": "contain"
+                                    }
+                                }
+                            } 
+                        },
+                        { 
+                            "type": "question", 
+                            "option": { 
+                                "alignment": 9,
+                                "padding": 32,
+                                "style": "question",
+                                "constraints": {
+                                    "maxWidth": 500
+                                },
+                                "decoration": {
+                                    "color": "##FFF5FCFF",
+                                    "border": {
+                                        "color": "#FF67B9E9",
+                                        "width": 4
+                                    },
+                                    "borderRadius": 24
+                                }
+                            } 
+                        },
+                        {
+                            "type": "recordButton",
+                            "name": "录音按钮-theme1",
+                            "order": 0,
+                            "option": {
+                                "alignment": 5
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "report",
+                "duration": 0,
+                "beginTime": 70,
+                "skip": 0,
+                "data": {
+                    "type": "screen",
+                    "children": [{
+                        "type": "report"
+                    }]
+                }
+            }
+        ]
+    }
+}

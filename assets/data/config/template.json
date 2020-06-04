@@ -1,0 +1,717 @@
+{
+    "feedback_0": {
+        "id": -1011,
+        "parentId": -101,
+        "name": "video_play-button",
+        "type": "dialog",
+        "order": 0,
+        "children": [
+            {
+                "type": "flare",
+                "name": "",
+                "option": {
+                    "src": "assets/res/feedback_0.flr",
+                    "assetType": "assets",
+                    "animation": "idle",
+                    "boxFit": "contain"
+                }
+            }
+        ],
+        "option": {
+            "layout": 1,
+            "alignment": 9,
+            "transformConversionType": "viewport",
+            "alignmentSelf": 9,
+            "cancelable": 0,
+            "mainAxisAlignment": "center",
+            "mode": "full",
+            "duration": null
+        }
+    },
+    "button_video_quit": {
+        "id": -1011,
+        "parentId": -101,
+        "name": "video-quit-button",
+        "type": "button",
+        "order": 0,
+        "children": [
+            {
+                "id": -1011,
+                "parentId": -101,
+                "name": "image",
+                "type": "image",
+                "order": 0,
+                "option": {
+                    "src": "assets/images/b_quit_3x.png",
+                    "alignment": 9,
+                    "assetType": "assets",
+                    "size": 100,
+                    "transformConversionType": "viewport",
+                    "boxFit": "contain",
+                    "padding": {
+                        "bottom": 10
+                    }
+                }
+            },
+            {
+                "id": -1014,
+                "parentId": -101,
+                "type": "text",
+                "name": "文本",
+                "order": 0,
+                "option": {
+                    "text": "退出",
+                    "theme": 1,
+                    "style": "subhead"
+                }
+            }
+        ],
+        "option": {
+            "layout": 2,
+            "alignment": 9,
+            "alignmentSelf": 9,
+            "flex": 0,
+            "padding": 20,
+            "hint": "simple"
+        }
+    },
+    "button_video_replay": {
+        "id": -1011,
+        "parentId": -101,
+        "name": "video-replay-button",
+        "type": "button",
+        "order": 0,
+        "children": [
+            {
+                "id": -1011,
+                "parentId": -101,
+                "name": "image",
+                "type": "image",
+                "order": 0,
+                "option": {
+                    "src": "assets/images/b_replay_3x.png",
+                    "alignment": 9,
+                    "assetType": "assets",
+                    "size": 100,
+                    "transformConversionType": "viewport",
+                    "boxFit": "contain",
+                    "padding": {
+                        "bottom": 10
+                    }
+                }
+            },
+            {
+                "id": -1014,
+                "parentId": -101,
+                "type": "text",
+                "name": "文本",
+                "order": 0,
+                "option": {
+                    "text": "重新开始",
+                    "theme": 1,
+                    "style": "subhead"
+                }
+            }
+        ],
+        "option": {
+            "layout": 2,
+            "alignment": 9,
+            "alignmentSelf": 9,
+            "flex": 0,
+            "padding": 20,
+            "hint": "simple",
+            "isSwitch": true
+        }
+    },
+    "button_video_play": {
+        "id": -1011,
+        "parentId": -101,
+        "name": "video_play-button",
+        "type": "button",
+        "order": 0,
+        "children": [
+            {
+                "id": -1011,
+                "parentId": -101,
+                "name": "image",
+                "type": "image",
+                "order": 0,
+                "option": {
+                    "src": "assets/images/b_pause_3x.png",
+                    "alignment": 9,
+                    "assetType": "assets",
+                    "size": 100,
+                    "transformConversionType": "viewport",
+                    "boxFit": "contain",
+                    "padding": {
+                        "bottom": 10
+                    }
+                }
+            },
+            {
+                "id": -1014,
+                "parentId": -101,
+                "type": "text",
+                "name": "文本",
+                "order": 0,
+                "option": {
+                    "text": "暂停播放",
+                    "theme": 1,
+                    "style": "subhead"
+                }
+            }
+        ],
+        "option": {
+            "layout": 2,
+            "alignment": 9,
+            "alignmentSelf": 9,
+            "flex": 0,
+            "padding": 20,
+            "hint": "simple",
+            "isSwitch": true,
+            "selectedWidget": {
+                "id": -1011,
+                "parentId": -101,
+                "name": "video-quit-button",
+                "type": "viewGroup",
+                "order": 0,
+                "children": [
+                    {
+                        "id": -1011,
+                        "parentId": -101,
+                        "name": "image",
+                        "type": "image",
+                        "order": 0,
+                        "option": {
+                            "src": "assets/images/b_play_3x.png",
+                            "alignment": 9,
+                            "assetType": "assets",
+                            "size": 100,
+                            "transformConversionType": "viewport",
+                            "boxFit": "contain",
+                            "padding": {
+                                "bottom": 10
+                            }
+                        }
+                    },
+                    {
+                        "id": -1014,
+                        "parentId": -101,
+                        "type": "text",
+                        "name": "文本",
+                        "order": 0,
+                        "option": {
+                            "text": "继续播放",
+                            "theme": 1,
+                            "style": "subhead"
+                        }
+                    }
+                ],
+                "option": {
+                    "layout": 2,
+                    "alignment": 9,
+                    "alignmentSelf": 9,
+                    "flex": 0,
+                    "padding": 20,
+                    "hint": "simple",
+                    "action": "ACTION_BUTTON_QUIT"
+                }
+            }
+        }
+    },
+    "button_positive": {
+        "id": -1011,
+        "parentId": -101,
+        "name": "positive-button",
+        "type": "button",
+        "order": 0,
+        "children": [
+            {
+                "id": -1011,
+                "parentId": -101,
+                "name": "image",
+                "type": "image",
+                "order": 0,
+                "option": {
+                    "src": "assets/images/b_0_normal.png",
+                    "alignment": 9,
+                    "assetType": "assets",
+                    "size": null,
+                    "flex": 1,
+                    "boxFit": "contain"
+                }
+            },
+            {
+                "id": -1014,
+                "parentId": -101,
+                "type": "text",
+                "name": "文本",
+                "order": 0,
+                "option": {
+                    "text": "确定",
+                    "theme": 1,
+                    "style": "button"
+                }
+            }
+        ],
+        "option": {
+            "layout": 0,
+            "alignment": 9,
+            "alignmentSelf": 9,
+            "hint": "simple",
+            "action": "positive",
+            "actionParams": {}
+        }
+    },
+    "button_negative": {
+        "id": -1011,
+        "parentId": -101,
+        "name": "positive-button",
+        "type": "button",
+        "order": 0,
+        "children": [
+            {
+                "id": -1011,
+                "parentId": -101,
+                "name": "image",
+                "type": "image",
+                "order": 0,
+                "option": {
+                    "src": "assets/images/b_0_selected.png",
+                    "alignment": 9,
+                    "assetType": "assets",
+                    "size": 200,
+                    "flex": 1,
+                    "boxFit": "contain"
+                }
+            },
+            {
+                "id": -1014,
+                "parentId": -101,
+                "type": "text",
+                "name": "文本",
+                "order": 0,
+                "option": {
+                    "text": "取消",
+                    "theme": 1,
+                    "style": "button"
+                }
+            }
+        ],
+        "option": {
+            "layout": 0,
+            "size": 200,
+            "alignment": 8,
+            "alignmentSelf": 9,
+            "hint": "simple"
+        }
+    },
+    "microphone_flare": {
+        "id": -10015,
+        "parentId": -1020,
+        "type": "flare",
+        "name": "microphone 动画",
+        "order": 0,
+        "option": {
+            "alignment": 5,
+            "boxFit": "contain",
+            "size": 300,
+            "transformConversionType": "viewport",
+            "animation": "idle",
+            "src": "assets/res/mic.flr"
+        }
+    },
+    "nodata": {
+        "id": -1011,
+        "parentId": -101,
+        "name": "dialog-conent_nodata",
+        "type": "viewGroup",
+        "order": 0,
+        "children": [
+            {
+                "id": -1011,
+                "parentId": -101,
+                "name": "image",
+                "type": "video",
+                "order": 0,
+                "option": {
+                    "src": "assets/media/praise0.mp4",
+                    "alignment": 9,
+                    "assetType": "assets",
+                    "boxFit": "contain",
+                    "size": {
+                        "width": 200
+                    }
+                }
+            },
+            {
+                "id": -1011,
+                "parentId": -101,
+                "name": "flare",
+                "type": "flare",
+                "order": 0,
+                "option": {
+                    "src": "assets/res/nodata.flr",
+                    "alignment": 1,
+                    "assetType": "assets",
+                    "animation": "phone_sway",
+                    "boxFit": "contain"
+                }
+            }
+        ],
+        "option": {
+            "layout": 0,
+            "alignment": 9,
+            "size": "100%",
+            "transformConversionType": "viewport",
+            "alignmentSelf": 9,
+            "cancelable": 0,
+            "mode": "full",
+            "duration": null
+        }
+    },
+    "loading_view": {
+        "type": "viewGroup",
+        "children": [
+            {
+                "type": "flare",
+                "name": "loading flr",
+                "order": 0,
+                "option": {
+                    "alignment": 9,
+                    "boxFit": "contain",
+                    "animation": "idle",
+                    "size": 200,
+                    "transformConversionType": "viewport",
+                    "src": "assets/res/course_loading.flr"
+                }
+            }
+        ]
+    },
+    "network_error": {
+        "id": -1011,
+        "parentId": -101,
+        "name": "video-quit-button",
+        "type": "viewGroup",
+        "order": 0,
+        "children": [
+            {
+                "id": -1011,
+                "parentId": -101,
+                "name": "image",
+                "type": "image",
+                "order": 0,
+                "option": {
+                    "src": "assets/images/b_quit_3x.png",
+                    "alignment": 9,
+                    "assetType": "assets",
+                    "size": 100,
+                    "transformConversionType": "viewport",
+                    "boxFit": "contain",
+                    "padding": {
+                        "bottom": 10
+                    }
+                }
+            },
+            {
+                "id": -1014,
+                "parentId": -101,
+                "type": "text",
+                "name": "文本",
+                "order": 0,
+                "option": {
+                    "text": "网络错误，请稍候重试！",
+                    "theme": 1,
+                    "style": "subhead"
+                }
+            }
+        ],
+        "option": {
+            "layout": 2,
+            "alignment": 9,
+            "alignmentSelf": 9,
+            "flex": 0,
+            "padding": 20,
+            "hint": "simple"
+        }
+    },
+    "continue_button": {
+        "id": -1011,
+        "parentId": -101,
+        "name": "positive-button",
+        "type": "button",
+        "order": 0,
+        "children": [
+            {
+                "id": -1011,
+                "parentId": -101,
+                "name": "image",
+                "type": "image",
+                "order": 0,
+                "option": {
+                    "src": "assets/images/b_2_normal.png",
+                    "alignment": 9,
+                    "assetType": "assets",
+                    "size": {"width": 140, "height": 60},
+                    "flex": 1,
+                    "boxFit": "contain"
+                }
+            },
+            {
+                "id": -1014,
+                "parentId": -101,
+                "type": "text",
+                "name": "文本",
+                "order": 0,
+                "option": {
+                    "text": "继续学习",
+                    "theme": 4,
+                    "style": "body1"
+                }
+            }
+        ],
+        "option": {
+            "layout": 0,
+            "size": {"width": 140, "height": 60},
+            "alignment": 9,
+            "alignmentSelf": 9,
+            "hint": "simple"
+        }
+    },
+    "replay_button": {
+        "id": -1011,
+        "parentId": -101,
+        "name": "positive-button",
+        "type": "button",
+        "order": 0,
+        "children": [
+            {
+                "id": -1011,
+                "parentId": -101,
+                "name": "image",
+                "type": "image",
+                "order": 0,
+                "option": {
+                    "src": "assets/images/b_1_normal.png",
+                    "alignment": 9,
+                    "assetType": "assets",
+                    "size": {"width": 140, "height": 60},
+                    "flex": 1,
+                    "boxFit": "contain"
+                }
+            },
+            {
+                "id": -1014,
+                "parentId": -101,
+                "type": "text",
+                "name": "文本",
+                "order": 0,
+                "option": {
+                    "text": "重新播放",
+                    "theme": 1,
+                    "style": "body1"
+                }
+            }
+        ],
+        "option": {
+            "layout": 0,
+            "size": {"width": 140, "height": 60},
+            "alignment": 9,
+            "alignmentSelf": 9,
+            "hint": "simple"
+        }
+    },
+
+    "retry_button": {
+        "id": -1011,
+        "parentId": -101,
+        "name": "positive-button",
+        "type": "button",
+        "order": 0,
+        "children": [
+            {
+                "id": -1011,
+                "parentId": -101,
+                "name": "image",
+                "type": "image",
+                "order": 0,
+                "option": {
+                    "src": "assets/images/b_2_normal.png",
+                    "alignment": 9,
+                    "assetType": "assets",
+                    "size": {"width": 200, "height": 60},
+                    "flex": 1,
+                    "boxFit": "contain"
+                }
+            },
+            {
+                "id": -1014,
+                "parentId": -101,
+                "type": "text",
+                "name": "文本",
+                "order": 0,
+                "option": {
+                    "text": "确认",
+                    "theme": 4,
+                    "style": "body1"
+                }
+            }
+        ],
+        "option": {
+            "layout": 0,
+            "size": {"width": 200, "height": 60},
+            "alignment": 9,
+            "alignmentSelf": 9,
+            "hint": "simple"
+        }
+    },
+    "continue_dialog": {
+        "id": -1011,
+        "parentId": -101,
+        "name": "dialog-continue_dialog",
+        "type": "viewGroup",
+        "order": 0,
+        "children": [
+            {
+                "id": -1011,
+                "parentId": -101,
+                "name": "view",
+                "type": "viewGroup",
+                "order": 2,
+                "children": [
+                    {
+                        "id": -1014,
+                        "parentId": -101,
+                        "type": "text",
+                        "name": "文本",
+                        "order": 0,
+                        "option": {
+                            "text": "检测到您的学习记录！\n是否继续上次退出的进度？",
+                            "theme": 4,
+                            "style": "display1",
+                            "textAlign": "center"
+                        }
+                    },
+                    {
+                        "id": -1011,
+                        "parentId": -101,
+                        "name": "view",
+                        "type": "viewGroup",
+                        "order": 1,
+                        "children": [
+                            {
+                                "id": -1011,
+                                "parentId": -101,
+                                "name": "positive-button",
+                                "type": "button",
+                                "order": 0,
+                                "children": [
+                                    {
+                                        "id": -1011,
+                                        "parentId": -101,
+                                        "name": "image",
+                                        "type": "image",
+                                        "order": 0,
+                                        "option": {
+                                            "src": "assets/images/b_1_normal.png",
+                                            "alignment": 9,
+                                            "assetType": "assets",
+                                            "flex": 1,
+                                            "boxFit": "contain"
+                                        }
+                                    },
+                                    {
+                                        "id": -1014,
+                                        "parentId": -101,
+                                        "type": "text",
+                                        "name": "文本",
+                                        "order": 0,
+                                        "option": {
+                                            "text": "重新播放",
+                                            "theme": 1,
+                                            "style": "body1"
+                                        }
+                                    }
+                                ],
+                                "option": {
+                                    "size": {"width": 140, "height": 60}
+                                }
+                            },
+                            {
+                                "id": -1011,
+                                "parentId": -101,
+                                "name": "positive-button",
+                                "type": "button",
+                                "order": 0,
+                                "children": [
+                                    {
+                                        "id": -1011,
+                                        "parentId": -101,
+                                        "name": "image",
+                                        "type": "image",
+                                        "order": 0,
+                                        "option": {
+                                            "src": "assets/images/b_2_normal.png",
+                                            "alignment": 9,
+                                            "assetType": "assets",
+                                            "flex": 1,
+                                            "boxFit": "contain"
+                                        }
+                                    },
+                                    {
+                                        "id": -1014,
+                                        "parentId": -101,
+                                        "type": "text",
+                                        "name": "文本",
+                                        "order": 0,
+                                        "option": {
+                                            "text": "继续学习",
+                                            "theme": 1,
+                                            "style": "body1",
+                                            "actionParams": {}
+                                        }
+                                    }
+                                ],
+                                "option": {
+                                    "size": {"width": 140, "height": 60}
+                                }
+                            }
+                        ],
+                        "option": {
+                            "size": {"width": 340, "height": 80},
+                            "padding": {"top": 10, "bottom": 10},
+                            "mainAxisAlignment": "spaceBetween",
+                            "layout": 1
+                        }
+                    }
+                ],
+                "option": {
+                    "size": {"width": 400, "height": 235},
+                    "padding": {"top": 40, "left": 30, "right": 30, "bottom": 0},
+                    "alignment": 5,
+                    "mainAxisAlignment": "spaceAround",
+                    "layout": 2,
+                    "decoration":{"color": "#ffffff", "borderRadius": 30}
+                }
+            },
+            {
+                "id": -1011,
+                "parentId": -101,
+                "name": "image",
+                "type": "image",
+                "order": 0,
+                "option": {
+                    "src": "assets/images/course_record_icon.png",
+                    "alignment": 1,
+                    "assetType": "assets",
+                    "size": {"width": 110, "height": 110},
+                    "flex": 1,
+                    "boxFit": "contain"
+                }
+            }
+        ],
+        "option": {
+            "size": {"width": 400, "height": 290}
+        }
+    }
+}
